@@ -1,0 +1,51 @@
+{
+    "name": "node-20-sentry-demo",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "vite dev",
+        "lint": "prettier --plugin prettier-plugin-svelte --plugin-search-dir src/ --write src/ && eslint src/ --fix --cache --cache-location .eslintcache"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-auto": "^3.2.1",
+        "@sveltejs/adapter-node": "^5.0.1",
+        "@sveltejs/kit": "^2.6.2",
+        "@sveltejs/vite-plugin-svelte": "^3.1.0",
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.62.0",
+        "autoprefixer": "^10.4.14",
+        "eslint": "^8.49.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard-with-typescript": "^37.0.0",
+        "eslint-plugin-compat": "^4.2.0",
+        "eslint-plugin-import": "^2.28.0",
+        "eslint-plugin-n": "^16.0.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-svelte": "^2.33.2",
+        "postcss": "^8.4.21",
+        "prettier": "^2.8.0",
+        "prettier-plugin-svelte": "^2.10.1",
+        "svelte": "^4.1.2",
+        "tailwindcss": "^3.4.1",
+        "tslib": "^2.4.1",
+        "typescript": "^5.1.6",
+        "vite": "^5.2.1",
+        "vite-plugin-restart": "^0.4.1"
+    },
+    "type": "module",
+    "dependencies": {
+        "@sentry/sveltekit": "^8.42.0",
+        "@sveltejs/adapter-vercel": "^5.5.0",
+        "@tailwindcss/line-clamp": "^0.4.4",
+        "@upstash/ratelimit": "^2.0.4",
+        "@vercel/functions": "^1.5.1",
+        "@vercel/kv": "^3.0.0",
+        "json-schema-to-ts": "^3.0.0"
+    },
+    "browserslist": [
+        "Firefox >= 91, Chrome > 100, Safari >= 16, Firefox ESR, not dead, > 1.5%"
+    ],
+    "engines": {
+        "node": "22.x"
+    }
+}

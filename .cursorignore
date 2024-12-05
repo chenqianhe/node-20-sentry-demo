@@ -1,0 +1,15 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+functions/
+node_modules/
+.env
+.cursorrules
+.wxt
+.vscode
+.output
+.vercel
+.idea
+.fleet
+.devcontainer
+.svelte-kit
+env-firebase
+patches/

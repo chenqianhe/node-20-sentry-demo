@@ -1,0 +1,7 @@
+{
+    "workbench.editor.customLabels.patterns": {
+        "**/src/routes/**/+*.*": "${dirname(1)}/${dirname(0)}/${filename}.${extname}",
+        "**/index.ts": "${dirname(1)}/${dirname(0)}"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

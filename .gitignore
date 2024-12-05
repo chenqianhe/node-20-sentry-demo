@@ -1,0 +1,31 @@
+.DS_Store
+node_modules
+*.no_sync
+/build
+.svelte-kit/
+.fleet/
+/package
+.env*.local
+!.env.example
+!.env.emulator
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+*firebase-adminsdk*.json
+*debug.log
+/.vercel
+env-firebase/auth_export/*
+env-firebase/storage_export/*
+env-firebase/firestore_export/*
+firebase-export-*
+# Sentry Auth Token
+.sentryclirc
+coverage
+.idea
+.vercel
+node_modules.nosync/
+.output
+.wxt
+.eslintcache
+
+# Sentry Config File
+.env.sentry-build-plugin
