@@ -10,10 +10,7 @@ Sentry.init({
 });
 
 const sessionCookieInvalidationHandle: Handle = async ({ event, resolve }) => {
-    return resolve({
-        ...event,
-        request: event.request.clone(),
-    });
+    return resolve(event);
 };
 
 // If you have custom handlers, make sure to place them after `sentryHandle()` in the `sequence` function.
