@@ -10,6 +10,8 @@ Sentry.init({
 });
 
 const sessionCookieInvalidationHandle: Handle = async ({ event, resolve }) => {
+    const delay = Math.floor(Math.random() * 1000);
+    await new Promise((resolve) => setTimeout(resolve, delay));
     return resolve(event);
 };
 
